@@ -1,4 +1,6 @@
-# Engineering School Project: Bloomberg OAPI with .NET
+# Engineering School Project: Bloomberg API with .NET
+
+This repo shows a set of tools that I used to tackle the Bloomberg API project at my engineering school. The project consists of a relational set of data retrieved from Bloomberg using  OPI. The goal of the project is to get data from Bloomberg, display basic data, calculate performances & volatility and learn basics about portfolio pricing. The data is related to financial products and portfolios. For each financial product, we retrieve basic data (name, description, currency, exchange market, …), calculate perfs and volatility (perfs and vol array on 1, 3 and 6 months and 1 and 3 years, performance chart). For portfolios, we calculate portfolio prices with “no buy, no sell” hypothesis. The project also involves optimizing multiple calls to Bloomberg.
 
 ## 1. Objectives
 
